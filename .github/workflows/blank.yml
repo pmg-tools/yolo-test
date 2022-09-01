@@ -34,11 +34,9 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Run datas
+          name: my-app.ipa
           path: |
             my-app.ipa
-            my-app.apk
-            osef.txt
-            yolo.json
+
 
 

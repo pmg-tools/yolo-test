@@ -31,12 +31,33 @@ jobs:
           echo "Hello, world!" > osef.txt
           echo {"pr-number": 4343} > yolo.json
           
-      - name: Upload artifacts
+      - name: Upload .ipa
         uses: actions/upload-artifact@v3
         with:
           name: my-app.ipa
           path: |
             my-app.ipa
+            
+      - name: Upload .apk
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-app.apk
+          path: |
+            my-app.apk
+            
+      - name: Upload .txt
+        uses: actions/upload-artifact@v3
+        with:
+          name: osef.txt
+          path: |
+            my-app.txt
+            
+      - name: Upload .json
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-app.json
+          path: |
+            my-app.json
 
 
 

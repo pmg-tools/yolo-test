@@ -26,8 +26,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Gen artifacts
         run: |
-          echo "Hello, world!" > my-app.ipa
-          echo "Hello, world!" > my-app.apk
+          echo "Hello, la zone!" > my-app.ipa
+          echo "Hello, la zone!" > my-app.apk
           echo "Hello, world!" > osef.txt
           echo {"pr-number": 4343} > yolo.json
           

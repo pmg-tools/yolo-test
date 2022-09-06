@@ -38,6 +38,13 @@ jobs:
           name: my-app.ipa
           path: |
             my-app.ipa
+            
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: yolo.json
+          path: |
+            yolo.json
 
 
 

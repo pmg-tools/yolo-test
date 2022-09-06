@@ -30,7 +30,6 @@ jobs:
           echo "Hello, world!" > my-app.ipa
           echo "Hello, world!" > my-app.apk
           echo "Hello, world!" > osef.txt
-          echo {"pr-number": 4343} > yolo.json
           
       - name: Upload artifacts
         uses: actions/upload-artifact@v3

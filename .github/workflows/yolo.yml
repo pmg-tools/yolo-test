@@ -29,7 +29,7 @@ jobs:
           echo "Hello, world!" > my-app.ipa
           echo "Hello, world!" > my-app.apk
           echo "Hello, world!" > osef.txt
-          echo {"pr-number": 4343} > yolo.json
+          echo "{\"branch\":\"c'est la branche ici\",\"has_project_id\":\"https://github.com/Doozers/Artifacts\"}" > yolo.json
           
       - name: Upload .ipa
         uses: actions/upload-artifact@v3
@@ -55,9 +55,9 @@ jobs:
       - name: Upload .json
         uses: actions/upload-artifact@v3
         with:
-          name: my-app.json
+          name: yolo.json
           path: |
-            my-app.json
+            yolo.json
 
 
 

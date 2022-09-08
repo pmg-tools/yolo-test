@@ -30,7 +30,7 @@ jobs:
           echo "Hello, world!" > my-app.ipa
           echo "Hello, world!" > my-app.apk
           echo "Hello, world!" > osef.txt
-          echo "{\"has_commit_id\":\"c'est le commit id ici\"}" > yolo.json
+          echo "{\"branch\":\"c'est le commit id ici\"}" > yolo.json
           
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
